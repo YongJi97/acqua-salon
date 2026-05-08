@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acqua Salon | Premium Hair Salon in New York City</title>
+    <meta name="description" content="Acqua Salon - New York City's boutique hair salon offering expert cuts, color, styling, and treatments in a warm, modern setting.">
+    <meta property="og:title" content="Acqua Salon | Premium Hair Salon in NYC">
+    <meta property="og:description" content="A boutique salon experience in the heart of New York City's East Village. Expert cuts, color, and styling.">
+    <meta property="og:image" content="assets/salon-exterior.png">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💧</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">ACQUA SALON</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">ACQUA SALON</h1>
+            <p class="hero-subtitle">Where Art Meets Hair</p>
+            <p class="hero-tagline">A boutique salon experience in the heart of New York City</p>
+            <a href="#contact" class="btn btn-primary">Book Your Appointment</a>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="assets/salon-entrance.png" alt="Acqua Salon reception with fresh flowers" loading="lazy">
+                </div>
+                <div class="about-content">
+                    <span class="section-label">Our Story</span>
+                    <h2 class="section-title">A Sanctuary of Style</h2>
+                    <p>Nestled in the vibrant streets of New York City, Acqua Salon is more than just a place to get your hair done &mdash; it's a retreat. Our intimate, modern space was designed to make every client feel pampered from the moment they walk through our doors.</p>
+                    <p>With years of expertise and a passion for artistry, our talented stylists deliver personalized looks that enhance your natural beauty. We use only premium professional products, including Morocanoil and other luxury brands, to ensure your hair looks and feels its absolute best.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Years of Excellence</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5000+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4.5</span>
+                            <span class="stat-label">Star Rating</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What We Offer</span>
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-description">From precision cuts to transformative color, we offer a full range of hair services tailored to your unique style.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32 8C32 8 20 20 20 32C20 38.6 25.4 44 32 44C38.6 44 44 38.6 44 32C44 20 32 8 32 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M32 44V56" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M26 56H38" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Haircuts & Styling</h3>
+                    <p>Precision cuts and expert styling tailored to your face shape, hair texture, and personal aesthetic.</p>
+                    <span class="service-price">From $65</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="28" r="16" stroke="currentColor" stroke-width="2"/>
+                            <path d="M32 12V28L40 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M24 48H40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M20 52H44" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M26 56H38" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Color & Highlights</h3>
+                    <p>Full color, balayage, highlights, and ombr&eacute; treatments using premium, hair-friendly formulas.</p>
+                    <span class="service-price">From $95</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 32C16 32 24 24 32 24C40 24 48 32 48 32C48 32 40 40 32 40C24 40 16 32 16 32Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="32" cy="32" r="4" stroke="currentColor" stroke-width="2"/>
+                            <path d="M32 12V18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M32 46V52" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M12 32H18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M46 32H52" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Treatments & Repair</h3>
+                    <p>Deep conditioning, keratin smoothing, and restorative treatments to bring damaged hair back to life.</p>
+                    <span class="service-price">From $75</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 16C20 16 16 24 16 32C16 44 24 52 32 52C40 52 48 44 48 32C48 24 44 16 44 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M24 12H40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M28 20C28 20 30 28 32 28C34 28 36 20 36 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Blowouts</h3>
+                    <p>Luxurious blowouts and blowdry styling for silky, voluminous hair that turns heads.</p>
+                    <span class="service-price">From $45</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32 12L36 24H48L38 32L42 44L32 36L22 44L26 32L16 24H28L32 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M20 52H44" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Special Occasions</h3>
+                    <p>Bridal styling, updos, and event-ready looks crafted to make your special moments unforgettable.</p>
+                    <span class="service-price">From $120</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="16" y="20" width="32" height="28" rx="4" stroke="currentColor" stroke-width="2"/>
+                            <path d="M24 20V16C24 13.8 25.8 12 28 12H36C38.2 12 40 13.8 40 16V20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M16 32H48" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="32" cy="32" r="2" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Products & Retail</h3>
+                    <p>Premium Morocanoil, Bumble and bumble, and professional-grade products for salon-quality care at home.</p>
+                    <span class="service-price">Shop In-Store</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Space</span>
+                <h2 class="section-title">Step Inside</h2>
+                <p class="section-description">Take a look at our modern, welcoming salon designed for your comfort and relaxation.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-item-large">
+                    <img src="assets/salon-interior-front.png" alt="Acqua Salon interior with styling stations and natural light" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/salon-interior-stations.png" alt="Professional styling stations with premium products" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/salon-mirrors.png" alt="Salon mirror wall with styling chairs" loading="lazy">
+                </div>
+                <div class="gallery-item gallery-item-wide">
+                    <img src="assets/salon-exterior.png" alt="Acqua Salon storefront exterior" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/salon-chairs.png" alt="Comfortable salon chairs and waiting area" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/salon-awning.png" alt="Acqua Salon blue awning signage" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Client Love</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"I've been going to Acqua Salon for years and wouldn't trust anyone else with my hair. The stylists are incredibly talented and the atmosphere is so relaxing."</p>
+                    <span class="testimonial-author">&mdash; Sarah M.</span>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"Best salon in NYC! The attention to detail is amazing. My color always comes out exactly how I envision it. Highly recommend!"</p>
+                    <span class="testimonial-author">&mdash; Jessica R.</span>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"The salon is beautiful and immaculately clean. Every visit feels like a luxury experience. The products they use are top-notch."</p>
+                    <span class="testimonial-author">&mdash; Monica L.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-label">Get in Touch</span>
+                    <h2 class="section-title">Visit Us</h2>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Address</h4>
+                                <p>402 E 87th St<br>New York, NY 10128</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.62 10.79C8.06 13.62 10.38 15.93 13.21 17.38L15.41 15.18C15.68 14.91 16.08 14.82 16.43 14.94C17.55 15.31 18.76 15.51 20 15.51C20.55 15.51 21 15.96 21 16.51V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.1 8.31 8.82 8.59L6.62 10.79Z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p><a href="tel:6467264256">(646) 726-4256</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20ZM12.5 7H11V13L16.2 16.2L17 14.9L12.5 12.2V7Z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Hours</h4>
+                                <p>Tuesday &ndash; Friday: 10:30 AM &ndash; 7:00 PM<br>Saturday: 10:00 AM &ndash; 6:00 PM<br>Sunday &amp; Monday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://www.yelp.com/biz/acqua-salon-new-york" target="_blank" rel="noopener" aria-label="Yelp">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.871 17.372c-.243-.097-.627-.378-.84-.594-.58-.588-.58-1.003-.58-2.18v-1.12c0-.72.058-.907.363-1.177.203-.178.508-.283.84-.283.373 0 .676.121.913.365.338.348.391.602.391 1.915v1.12c0 1.07-.081 1.4-.432 1.72-.237.216-.406.273-.655.234zm-4.263-2.09c.285-.132.607-.178.907-.12.337.064.594.243.77.535.176.292.203.621.081.94-.097.254-.338.487-.66.635l-1.62.754c-.864.405-1.317.459-1.747.202-.338-.203-.546-.573-.573-1.025-.027-.452.148-.864.487-1.157l1.755-1.296c.175-.134.378-.27.6-.47zm-.19-3.463c-.162.27-.46.454-.813.5-.351.048-.69-.062-.925-.302-.175-.178-.257-.4-.257-.716 0-.316.014-.383.473-1.89l.533-1.724c.324-1.046.567-1.4 1.046-1.528.378-.102.797.005 1.11.283.314.278.467.67.43 1.1-.038.433-.27.948-.97 2.657l-.41 1.003c-.076.186-.148.365-.217.617zm7.08 1.134c-.27-.1-1.17-.42-1.666-.59-.846-.29-1.08-.428-1.183-.71-.07-.19-.043-.416.072-.605.135-.222.365-.373.626-.416.19-.03.324.005 1.863.567l1.18.432c.905.33 1.192.513 1.326.848.108.27.094.573-.041.845-.135.271-.378.473-.676.562-.365.108-.705.014-1.5-.333l-.001-.001zm-3.487-6.95c.338 0 .633.129.838.365.26.3.306.697.284 1.204l-.148 3.553c-.027.66-.054.893-.243 1.122-.176.213-.46.338-.77.338-.31 0-.594-.125-.77-.338-.19-.23-.216-.462-.243-1.122l-.148-3.553c-.022-.507.024-.904.284-1.204.205-.236.5-.365.838-.365h.078z"/></svg>
+                        </a>
+                        <a href="https://maps.app.goo.gl/ozVzuYsDMkCfjUSk9" target="_blank" rel="noopener" aria-label="Google Maps">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6042.600596019956!2d-73.948532!3d40.777411799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258ba628b60e7%3A0x5422ad1b4cc12f8f!2sAcqua%20Salon!5e0!3m2!1sen!2sus!4v1778280488747!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>ACQUA SALON</h3>
+                    <p>Premium hair care in the heart of NYC's East Village.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 Acqua Salon. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
