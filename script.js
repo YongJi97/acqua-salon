@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, observerOptions);
 
     const animateElements = document.querySelectorAll(
-        '.service-card, .gallery-item, .testimonial-card, .about-content, .about-image, .contact-info, .contact-map'
+        '.service-card, .gallery-item, .testimonial-card, .about__copy, .about__media, .book__copy, .book__card'
     );
 
     animateElements.forEach(el => {
